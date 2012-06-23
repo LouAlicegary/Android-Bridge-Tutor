@@ -1,0 +1,25 @@
+Android OS Java-Based Bridge Tutor
+==================================
+
+Portfolio Link: 
+
+http://loualicegary.com/wordpress/?p=22
+
+
+
+Description: 
+
+This repository contains two separate programs: the bridge tutor itself and the Java application used to seed the SQLite database with bridge hand quizzes. Development on these apps is done on a Ubuntu platfrom using Eclipse IDE and the Android  SDK. The Android app first asks the user to select a quiz (by name/number), and subsequently displays a hand of 13 cards. The user must then choose the correct order in which to bid in order to proceed.  
+
+
+
+Files Worth Peeking At:
+
+/BridgeTutor/src/com/example/bridgetutor/*.java -- This is all the Java code the app is based on. 
+	BridgeTutor.java is the main file the app resides in.
+	MyAdapter.java is a custom adapter for displaying the quiz view.
+	DataHelper.java is a bridge used to access the SQLite database.
+	QuestionLister.java is the view the user first sees upon starting up the application
+	The rest of the files contain helper classes for various datatypes I've used. 
+
+/Bridge DB Loader/src/com/example/bridge_db/*.java -- This is where the Database GUI code resides. Tester.java is the main part of the application, and the other three Java files play support roles interfacing with the database, displaying the window layout, etc.
