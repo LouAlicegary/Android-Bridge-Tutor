@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/bid_lin_lay"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="25dip">
+		<TextView android:id="@+id/west_col"
+			android:text="west"
+			android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:width="80dip"
+        	/>
+        <TextView android:id="@+id/north_col"
+	        android:text="north"
+	        android:layout_height="fill_parent"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:width="80dip"
+	    />
+	    <TextView android:id="@+id/east_col"
+	        android:text="east"
+	        android:layout_height="fill_parent"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:width="80dip"
+	    />
+	    <TextView android:id="@+id/south_col"
+	        android:text="south"
+	        android:layout_height="fill_parent"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:width="80dip"
+	    />
+</LinearLayout>
